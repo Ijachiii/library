@@ -7,5 +7,5 @@ class Book(models.Model):
     author = models.CharField(max_length=100)
     isbn = models.CharField(max_length=13)
 
-    def _str__(self):
+    def __str__(self):
         return self.title
