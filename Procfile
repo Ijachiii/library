@@ -1,0 +1,1 @@
+web: gunicron lbrary_project.wsgi --log-file -
